@@ -89,7 +89,8 @@ html, body {
 
 #whitesContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-left: 1px;
     margin-top: 1px;
     border: 1px solid black;
@@ -132,9 +133,9 @@ html, body {
 .wRectangle {
     background: #FFFFFF;
     width: 35px;
-    height: 50px;
-    margin-left: 1px;
-    margin-top: 1px;
+    height: 53px;
+    margin-left: 2px;
+    margin-top: 3px;
     margin-right: 1px;
 }
 /*
