@@ -1,2 +1,2 @@
-# CSS3
-Fondamentaux de CSS3 - WCS
+# CSS3 - Le Tardis
+Fondamentaux de CSS3 (WCS) - Le Tardis
