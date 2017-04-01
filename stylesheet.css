@@ -12,6 +12,14 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h4 {
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    left: 12px;
+}
+
 /*
 *, *:after, *:before {
     box-sizing: border-border;
@@ -91,10 +99,22 @@ html, body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 115px;
+    height: 117px;
     margin-left: 1px;
-    margin-top: 1px;
+    margin-top: -0.5px;
     border: 1px solid black;
     position: absolute;
+}
+
+#notice {
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0.5px solid black;
 }
 
 /*
@@ -123,11 +143,11 @@ html, body {
 
 .square2 {
     width: 115px;
-    height: 115px;
+    height: 116px;
     margin-left: 1px;
-    margin-top: 1px;
+    margin-top: 0px;
     border: 1px solid black;
-    position: absolute;
+    position: relative;
 }
 
 .wRectangle {
